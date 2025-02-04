@@ -33,7 +33,7 @@ A classe principal do projeto, responsável por gerenciar todo o fluxo de proces
 
 1. **Clonar o repositório:**
    ```sh
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/SamuelSPrado/Reprocessamento-de-Pedidos
    cd ReprocessamentoOmie
    ```
 
