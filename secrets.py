@@ -1,0 +1,1 @@
+ENDPOINT = "https://third-api.meep.cloud/api/omie/order/add/queue/"

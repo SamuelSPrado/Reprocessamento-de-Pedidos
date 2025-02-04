@@ -2,12 +2,13 @@ import os
 import time
 import requests
 from datetime import datetime
+from secrets import ENDPOINT
 
 
 class PedidoProcessor:
     def __init__(self, file_path):
         self.file_path = file_path
-        self.api_url = "https://third-api.meep.cloud/api/omie/order/add/queue/"
+        self.api_url = ENDPOINT
         self.log_file = "logs/envios.log"
         os.makedirs("logs", exist_ok=True)
 
